@@ -1,0 +1,8 @@
+SET(SOURCES ui_SplashScreen.c
+    ui_MainScreen.c
+    ui.c
+    ui_comp_hook.c
+    ui_helpers.c
+    ui_img_homeremotelogo_90px_png.c)
+
+add_library(ui ${SOURCES})
